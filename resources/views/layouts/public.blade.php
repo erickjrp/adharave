@@ -18,7 +18,33 @@
 
     <div class="container">
 
+      @include('layouts.public_components.encabezado')
+
+    </div>
+
+    @include('layouts.public_components.navbar')
+
+    <div class="container-fluid">
+      
+      @include('layouts.public_components.menu')
+
+    </div>
+
+    <div class="container-fluid no_padding_left_right">
+      
+      @yield('carrusel')
+
+    </div>
+
+    <div class="container">
+
       @yield('content')
+
+    </div>
+
+    <div class="container-fluid" id="container_fluid">
+
+        @include('layouts.public_components.footer')
 
     </div>
 

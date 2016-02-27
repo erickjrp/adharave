@@ -1,0 +1,295 @@
+/*-----------------PARA TODA EL SITIO-----------------*/
+
+/*Fuentes*/
+@font-face{
+   	font-family: fuenteLato;
+    src:{{ URL::asset('fonts/Lato/Lato-Regular.ttf') }};
+}
+@font-face{
+    font-family: fuenteLato;
+    src:{{ URL::asset('fonts/Lato/Lato-BoldItalic.ttf') }};
+	font-weight: bold;
+}
+body, h1, h2, h3, h4, h5, h6, p, a, li, ul{
+	font-family: fuenteLato;
+}
+p, a, li, label{
+	font-size:15px;
+}
+/*Finaliza fuentes*/
+
+/*Botones*/
+.btn-primary {
+    color: #fff;
+    background-color: #e91e63;
+    border-color: #e91e63;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #c1134e;
+    border-color: #c1134e;
+}
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: #c1134e;
+    border-color: #c1134e;
+}
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #c1134e;
+    border-color: #c1134e;
+}
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color: #c1134e;
+    border-color: #c1134e;
+}
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+/*Finaliza botones*/
+
+/*Footer*/
+.hr_footer{
+	margin-top: -10px;
+}
+.titulo_footer{
+	margin-bottom: 0px;
+	font-size: 72px;
+	margin-left: 5px;
+}
+#container_fluid{
+	background-color: #e91e63;
+	margin-top: 35px;
+}
+.color_blanco{
+	color: #fff;
+}
+.enlace_contacto, .enlace_contacto:hover, .enlace_contacto:visited{
+	color: #fff;
+}
+@media (max-width: 767px) {
+	.centrar_xs{
+		text-align: center;
+	}
+}
+/*Finaliza footer*/
+
+/*-------------FINALIZA PARA TODO EL SITIO-------------*/
+
+/*----------------------ENCABEZADO---------------------*/
+
+/*Parte superior*/
+#row_encabezado{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#nav-pills-menu-superior{
+	margin-top: 32px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	#nav-pills-menu-superior{
+		margin-top: 16px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#nav-pills-menu-superior{
+		margin-top: 10px;
+	}
+}
+#nav-pills-menu-superior > li > a > strong.letra_menu{
+	font-size: 20px !important;
+}
+/*Finaliza parte superior*/
+
+/*navbar*/
+#navbar{
+	margin-bottom: 0px;
+}
+/*Finaliza navbar*/
+
+/*Barra de navegación*/
+#fondo_navbar {
+	background-color: #e91e63;
+}
+#nav-pills-menu > li > a {
+    border-radius: 0px;
+    font-style: italic;
+    font-size: 18px !important;
+}
+#nav-pills-menu > li.active > a, #nav-pills-menu > li.active > a:focus, #nav-pills-menu > li.active > a:hover {
+    color: #fff;
+    background-color: #c1134e;
+}
+#nav-pills-menu > li > a:focus, #nav-pills-menu > li > a:hover {
+    text-decoration: none;
+    background-color: #c1134e;
+}
+#nav-pills-menu > li > a {
+    color: white;
+    font-size: 17px;
+}
+#nav-pills-menu .open>a{
+    background-color: #c1134e;
+    border-color: #c1134e;
+}
+.dropdown-menu-width {
+  min-width:auto;
+  width:100%;
+}
+/*Finaliza barra de navegación*/
+
+/*-----------------FINALIZA ENCABEZADO-----------------*/
+
+/*-----------------------INDEX-------------------------*/
+
+/*Carrusel*/
+.no_padding_left_right{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+/*Finaliza carrusel*/
+
+/*Titulo con linea*/
+.titulo_linea{
+	position: relative;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 25px;
+}
+.titulo_linea span {
+  background: #fff;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.titulo_linea:before {
+  background: #ddd;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+.titulo_linea:before {
+  left: 0;
+}
+/*Finaliza título con línea*/
+
+/*Categorías*/
+.titulo_thumbnail{
+	margin-top: 10px;
+}
+
+.view {
+    width: 100%;
+    height: 250px;
+    border: 10px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 5px #b2b2b2;
+    cursor: default;
+    /*background: #fff url(../images/bgimg.jpg) no-repeat center center*/
+}
+.view .mask {
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block;
+    position: relative
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0
+}
+.view p {
+    /*font-family: Georgia, serif;*/
+    font-style: italic;
+    font-size: 15px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #e91e63;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000;
+}
+.view a.info:hover {
+    box-shadow: 0 0 2px #000;
+    background: #c1134e;
+    transition: all 0.15s linear;
+}
+
+.view img { 
+	transform: scaleY(1);
+	transition: all 0.7s ease-in-out;
+}
+.view .mask { 
+    background-color: rgba(255, 231, 179, 0.3); 
+    transition: all 0.5s linear;
+    opacity: 0;
+}	
+.view h2{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    background: transparent;
+    margin: 20px 40px 0px 40px;
+    transform: scale(0);
+    color: #333;
+    transition: all 0.5s linear;
+    opacity: 0;
+}
+.view p {
+    color: #333;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.5s linear;
+}
+.view a.info { 
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.5s linear;
+}
+
+.view:hover img { 
+	transform: scale(10);
+    opacity: 0;
+}
+.view:hover .mask { 
+	opacity: 1;
+}																			 
+.view:hover h2,
+.view:hover p,
+.view:hover a.info{ 
+    transform: scale(1);
+    opacity: 1;
+}
+/*Finaliza categorías*/
+
+/*-------------------FINALIZA INDEX--------------------*/
+
+/*----------------------NOSOTRAS-----------------------*/
+.texto_nosotras{
+    font-size: 19px;
+}
+/*-----------------FINALIZA NOSOTRAS-------------------*/

@@ -12,7 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('public.construccion');
+    return view('public.index');
+});
+Route::get('/nosotras', function () {
+    return view('public.nosotras');
 });
 
 /*
