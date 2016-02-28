@@ -17,6 +17,27 @@ Route::get('/', function () {
 Route::get('/nosotras', function () {
     return view('public.nosotras');
 });
+Route::get('/soutache/mini', function () {
+    return view('public.coleccion.soutache.mini');
+});
+Route::get('/soutache/cintillos', function () {
+    return view('public.coleccion.soutache.cintillos');
+});
+Route::get('/soutache/zarcillos', function () {
+    return view('public.coleccion.soutache.zarcillos');
+});
+Route::get('/alambrismo/collares', function () {
+    return view('public.coleccion.alambrismo.collares');
+});
+Route::get('/alambrismo/anillos', function () {
+    return view('public.coleccion.alambrismo.anillos');
+});
+Route::get('/alambrismo/pulseras', function () {
+    return view('public.coleccion.alambrismo.pulseras');
+});
+Route::get('/vitrofusion', function () {
+    return view('public.coleccion.vitrofusion');
+});
 
 /*
 |--------------------------------------------------------------------------

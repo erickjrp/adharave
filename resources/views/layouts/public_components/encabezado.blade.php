@@ -24,7 +24,7 @@
 				</a>
 			</li>
 			<li role="presentation">
-				<a href="{{ url('/contacto') }}">
+				<a href="#contacto">
 					<i class="fa fa-envelope-o fa-2x fa-fw"></i>
 					<strong class="letra_menu">C</strong>ONTACTO
 				</a>

@@ -7,23 +7,23 @@
   </ol>
 
   <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
+  <div class="carousel-inner fondo_carrusel" role="listbox">
     <div class="item active">
-      <img src="{{ URL::asset('images/carrusel/1.jpg') }}" alt="Soutache">
+      <img src="{{ URL::asset('images/carrusel/1.jpg') }}" alt="Soutache" class="center-block">
       <div class="carousel-caption hidden-xs">
         <h3><i>Soutache</i></h3>
         <p><i>Nombre del accesorio</i></p>
       </div>
     </div>
     <div class="item">
-      <img src="{{ URL::asset('images/carrusel/2.jpg') }}" alt="Soutache">
+      <img src="{{ URL::asset('images/carrusel/2.jpg') }}" alt="Soutache" class="center-block">
       <div class="carousel-caption hidden-xs">
         <h3><i>Soutache</i></h3>
         <p><i>Nombre del accesorio</i></p>
       </div>
     </div>
     <div class="item">
-      <img src="{{ URL::asset('images/carrusel/3.jpg') }}" alt="Soutache">
+      <img src="{{ URL::asset('images/carrusel/3.jpg') }}" alt="Soutache" class="center-block">
       <div class="carousel-caption hidden-xs">
         <h3><i>Soutache</i></h3>
         <p><i>Nombre del accesorio</i></p>

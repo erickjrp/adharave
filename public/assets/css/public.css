@@ -149,6 +149,9 @@ a:focus, a:hover {
 	padding-left: 0px;
 	padding-right: 0px;
 }
+.fondo_carrusel{
+    background-color: #e91e63; 
+}
 /*Finaliza carrusel*/
 
 /*Titulo con linea*/
@@ -291,5 +294,20 @@ a:focus, a:hover {
 /*----------------------NOSOTRAS-----------------------*/
 .texto_nosotras{
     font-size: 19px;
+}
+.hr_oscuro{
+    border-top: 1px solid #ddd;
+}
+.hr_oscuro_subtitulos{
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.subtitulos_nosotras{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
 }
 /*-----------------FINALIZA NOSOTRAS-------------------*/

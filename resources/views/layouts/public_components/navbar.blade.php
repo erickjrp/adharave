@@ -77,7 +77,7 @@
           </a>
         </li>
         <li>
-          <a href="{{ url('/contacto') }}">
+          <a href="#contacto">
             CONTACTO
           </a>
         </li>
