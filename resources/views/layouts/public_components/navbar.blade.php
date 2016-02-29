@@ -43,7 +43,7 @@
             </li>
             <li>
               <a href="{{ url('/soutache/zarcillos') }}">
-                <i>Zarchillos</i>
+                <i>Zarcillos</i>
               </a>
             </li>
           </ul>

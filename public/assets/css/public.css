@@ -295,6 +295,11 @@ a:focus, a:hover {
 .texto_nosotras{
     font-size: 19px;
 }
+@media (max-width: 767px) {
+    .texto_nosotras{
+        font-size: 17px;
+    }
+}
 .hr_oscuro{
     border-top: 1px solid #ddd;
 }

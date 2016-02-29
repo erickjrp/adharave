@@ -2,11 +2,20 @@
 
 	<div class="col-xs-12">
 
-		<h1 class="titulo_linea">
+		<h1 class="titulo_linea hidden-xs">
 			<span>
-				<i><strong>Soutache / Zarcillos</strong></i>
+				<i><strong>
+					Soutache / Zarcillos
+				</strong></i>
 			</span>
 		</h1>
+		<h2 class="visible-xs-block text-center">
+			<span>
+				<i><strong>
+					Zarcillos
+				</strong></i>
+			</span>
+		</h2>
 
 		<p class="text-center texto_nosotras">
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
