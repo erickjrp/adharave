@@ -38,6 +38,7 @@ Route::get('/alambrismo/pulseras', function () {
 Route::get('/vitrofusion', function () {
     return view('public.coleccion.vitrofusion');
 });
+Route::post('/enviarCorreo', 'MailController@enviarCorreo');
 
 /*
 |--------------------------------------------------------------------------

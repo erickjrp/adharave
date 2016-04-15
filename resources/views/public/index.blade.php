@@ -24,5 +24,6 @@
 
 	@include('public.components.categorias')
 	@include('public.components.categorias_sm_xs')
+	@include('public.components.modales_categorias')
 
 @endsection

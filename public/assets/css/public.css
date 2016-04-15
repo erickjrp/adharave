@@ -22,7 +22,7 @@ p, a, li, label{
 .btn-primary {
     color: #fff;
     background-color: #e91e63;
-    border-color: #e91e63;
+    border-color: #c1134e;
 }
 .btn-primary:hover {
     color: #fff;
@@ -286,6 +286,12 @@ a:focus, a:hover {
 .view:hover a.info{ 
     transform: scale(1);
     opacity: 1;
+}
+.titulos_thumbs{
+    color: #e91e63 !important;
+}
+.modal-title{
+    color: #e91e63;
 }
 /*Finaliza categorías*/
 

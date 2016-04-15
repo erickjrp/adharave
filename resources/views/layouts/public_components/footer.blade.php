@@ -21,18 +21,18 @@
 
 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 
-				<form class="form-horizontal">
+				{!! Form::open(array('url' => array('enviarCorreo'), 'method' => 'POST', 'class' => 'form-horizontal')) !!}
 
 					<div class="form-group">
 						<label for="nombre" class="col-sm-2 hidden-md col-lg-2 control-label">Nombre</label>
 						<div class="col-sm-10 col-md-12 col-lg-10">
-							<input type="text" class="form-control" id="nombre" placeholder="Nombre y apellido">
+							<input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre y apellido" required>
 						</div>
 					</div>
 					<div class="form-group">
 						<label for="mensaje" class="col-sm-2 hidden-md col-lg-2 control-label">Mensaje</label>
 						<div class="col-sm-10 col-md-12 col-lg-10">
-							<textarea class="form-control" rows="3" id="mensaje" placeholder="Escribe aquí tu mensaje..."></textarea>
+							<textarea class="form-control" rows="3" id="mensaje" name="mensaje" placeholder="Escribe aquí tu mensaje..." required></textarea>
 						</div>
 					</div>
 					<div class="form-group">
@@ -42,7 +42,7 @@
 						</div>
 					</div>
 
-				</form>
+				{!! Form::close() !!}
 				<hr class="hidden-sm hidden-md hidden-lg">
 
 			</div>
