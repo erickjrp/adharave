@@ -1,0 +1,12 @@
+To: informacion@adharave.com
+Subject: =?utf-8?Q?=C2=A1Nos?= han contactado!
+Message-ID: <4639a7b1827fe740ae00ecea3f08a094@localhost>
+Date: Fri, 15 Apr 2016 05:57:53 +0000
+From: Adhara Collections <informacion@adharave.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p><strong>Nombre: </strong>Erick</p>
+<p><strong>Mensaje: </strong>d</p>
+

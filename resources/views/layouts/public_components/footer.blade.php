@@ -5,7 +5,7 @@
 		<p class="titulo_footer"><i>Adhara</i></p>
 		<hr class="hr_footer">
 		<p class="text-justify">
-			<i>Los accesorios hoy en día juegan un papel muy importante para complementar la ropa. Éstos tienen la capacidad de cambiar tremendamente un vestuario, tanto para un toque formal, informal de manera elegante y moderna.</i>
+			<i>Despierta tu estilo con todos los accesorios que no pueden faltar en tu guardaropa. Todos nuestros diseños darán un impulso instantáneo a tu elegancia.</i>
 		</p>
 
 	</div>
@@ -36,9 +36,9 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<div class="col-xs-12 col-sm-offset-2 col-sm-10 col-md-2 col-md-offset-0 col-lg-offset-2 col-lg-10">
-							<button type="submit" class="btn btn-default hidden-xs">Enviar</button>
-							<button type="submit" class="btn btn-default hidden-sm hidden-md hidden-lg btn-block">Enviar</button>
+						<div class="col-xs-12 col-sm-offset-2 col-sm-10 col-md-8 col-md-offset-0 col-lg-offset-2 col-lg-10">
+							<button type="submit" class="btn btn-default hidden-xs" data-toggle="tooltip" data-placement="top" title="Al hacer clic se enviará el mensaje y se recargará la página">Enviar</button>
+							<button type="submit" class="btn btn-default hidden-sm hidden-md hidden-lg btn-block" data-toggle="tooltip" data-placement="top" title="Al hacer clic se enviará el mensaje y se recargará la página">Enviar</button>
 						</div>
 					</div>
 

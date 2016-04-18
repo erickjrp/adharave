@@ -8,7 +8,7 @@
 			<div class="mask">  
 				<h2 class="titulos_thumbs"><i>Soutache</i></h2>  
 				<p>
-					Consiste en coser con puntadas invisibles cordones sujetando piezas de bisutería o abalorios de diferentes colores y tamaños
+					Es una técnica muy antigua, su nombre se traduce del francés como trenza, sujetando piezas de bisutería o abalorios de diferentes colores y tamaños
 				</p>  
 				<a href="#Soutache" class="info" data-toggle="modal" data-target=".modal_soutache">Ver artículos</a>
 			</div>  
@@ -24,7 +24,7 @@
 			<div class="mask">  
 				<h2 class="titulos_thumbs"><i>Alambrismo</i></h2>  
 				<p>
-					Método para la creación de joyas utilizando como base y principal componente el alambre
+					Es la técnica para la creación de joyas de manera manual utilizando como base y principal componente el alambre para crear piezas de bisutería y joyas
 				</p>  
 				<a href="#" class="info" data-toggle="modal" data-target=".modal_alambrismo">Ver artículos</a>  
 			</div>  

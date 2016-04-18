@@ -12,11 +12,12 @@
         <h3 class="text-center titulo_thumbnail"><i>Soutache</i></h3>
         
         <p class="text-justify">
-          Consiste en coser con puntadas invisibles cordones sujetando piezas de bisutería o abalorios de diferentes colores y tamaños
+          Es una técnica muy antigua, su nombre se traduce del francés como trenza, sujetando piezas de bisutería o
+          abalorios de diferentes colores y tamaños
         </p>
         
         <p>
-          <a href="#" class="btn btn-primary btn-block" role="button">Ver artículos</a>
+          <a href="#" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target=".modal_soutache">Ver artículos</a>
         </p>
 
       </div>
@@ -37,11 +38,11 @@
         <h3 class="text-center titulo_thumbnail"><i>Alambrismo</i></h3>
         
         <p class="text-justify">
-          Método usado para la creación de joyas utilizando como base y principal componente el alambre<br /><br />
+          Es la técnica para la creación de joyas de manera manual utilizando como base y principal componente el alambre para crear piezas de bisutería y joyas<br /><br />
         </p>
         
         <p>
-          <a href="#" class="btn btn-primary btn-block" role="button">Ver artículos</a>
+          <a href="#" class="btn btn-primary btn-block" role="button" data-toggle="modal" data-target=".modal_alambrismo">Ver artículos</a>
         </p>
 
       </div>
@@ -66,7 +67,7 @@
         </p>
         
         <p>
-          <a href="#" class="btn btn-primary btn-block" role="button">Ver artículos</a>
+          <a href="{{ url('/vitrofusion') }}" class="btn btn-primary btn-block" role="button">Ver artículos</a>
         </p>
 
       </div>

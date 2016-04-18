@@ -18,7 +18,7 @@
 		</h2>
 
 		<p class="text-center texto_nosotras">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+			Cada uno identificado con un nombre cuyo secretro está en el gusto de cada persona al combinar colores, piedras y perlas, dando una perfecta simetría.
 		</p>
 
 		<hr class="hr_oscuro">

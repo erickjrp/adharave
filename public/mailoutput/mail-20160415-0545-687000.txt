@@ -1,0 +1,12 @@
+To: informacion@adharave.com
+Subject: =?utf-8?Q?=C2=A1Nos?= han contactado!
+Message-ID: <29200b875ed41aa7fda8abdc7745889e@localhost>
+Date: Fri, 15 Apr 2016 05:45:26 +0000
+From: Adhara Collections <informacion@adharave.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<h4>Nos contacto: Erick</h4>
+<p>Con el siguiente mensaje: asd</p>
+

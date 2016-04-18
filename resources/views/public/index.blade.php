@@ -9,6 +9,12 @@
 @section('content')
 
 	<div class="row">
+		<div class="col-xs-12">
+			@include('public.alerts.success')
+		</div>
+	</div>
+
+	<div class="row">
 
 		<div class="col-xs-12">
 

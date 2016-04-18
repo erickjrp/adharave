@@ -12,7 +12,8 @@
     <!-- Propios -->
     <link rel="stylesheet" href="{{ URL::asset('assets/css/public.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('assets/css/font-awesome.min.css') }}">
-
+    <link rel="shortcut icon" type="image/x-icon" href="{{ URL::asset('images/logo.jpg') }}">
+    
   </head>
   <body>
 
@@ -54,6 +55,11 @@
     <script type="text/javascript" src="{{ URL::asset('assets/js/bootstrap.min.js') }}"></script>
     <!-- Propios -->
     <script type="text/javascript" src="{{ URL::asset('assets/js/public.js') }}"></script>
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+    </script>
     
   </body>
 </html>

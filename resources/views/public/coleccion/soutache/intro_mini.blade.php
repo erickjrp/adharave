@@ -18,7 +18,7 @@
 		</h2>
 
 		<p class="text-center texto_nosotras">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+			Zarcillos trenzados con abalorios totalmente artesanales para lucir en tu día a día.
 		</p>
 
 		<hr class="hr_oscuro">
