@@ -5,14 +5,14 @@
 		<h1 class="titulo_linea hidden-xs">
 			<span>
 				<i><strong>
-					Soutache / Cintillos y cinturones
+					Alambrismo / Zarcillos
 				</strong></i>
 			</span>
 		</h1>
 		<h2 class="visible-xs-block text-center">
 			<span>
 				<i><strong>
-					Cintillos y cinturones
+					Zarcillos
 				</strong></i>
 			</span>
 		</h2>

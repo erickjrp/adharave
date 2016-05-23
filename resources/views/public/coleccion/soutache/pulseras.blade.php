@@ -2,37 +2,37 @@
 
 @section('content')
 
-	@include('public.coleccion.intro_vitrofusion')
+	@include('public.coleccion.soutache.intro_pulseras')
 
 	<?php
 
 	$imagenes[0][0] = "1.jpg";
-	$imagenes[0][1] = "1_2.jpg";
+	//$imagenes[0][1] = "mini.jpg";
+	$imagenes[1][0] = "2.jpg";
 	/*
-	$imagenes[1][0] = "vitrofusion.jpg";
-	$imagenes[1][1] = "vitrofusion.jpg";
-	$imagenes[2][0] = "vitrofusion.jpg";
-	$imagenes[2][1] = "vitrofusion.jpg";
-	$imagenes[3][0] = "vitrofusion.jpg";
-	$imagenes[3][1] = "vitrofusion.jpg";
-	$imagenes[4][0] = "vitrofusion.jpg";
-	$imagenes[4][1] = "vitrofusion.jpg";
-	$imagenes[5][0] = "vitrofusion.jpg";
-	$imagenes[5][1] = "vitrofusion.jpg";
+	$imagenes[1][1] = "pulsera.jpg";
+	$imagenes[2][0] = "pulsera.jpg";
+	$imagenes[2][1] = "pulsera.jpg";
+	$imagenes[3][0] = "pulsera.jpg";
+	$imagenes[3][1] = "pulsera.jpg";
+	$imagenes[4][0] = "pulsera.jpg";
+	$imagenes[4][1] = "pulsera.jpg";
+	$imagenes[5][0] = "pulsera.jpg";
+	$imagenes[5][1] = "pulsera.jpg";
 	*/
 
-	$nombres[0]  = "Vitrofusión";
+	$nombres[0]  = "Soutache Pulsera";
+	$nombres[1]  = "Soutache Pulsera";
 	/*
-	$nombres[1]  = "Vitrofusión";
-	$nombres[2]  = "Vitrofusión";
-	$nombres[3]  = "Vitrofusión";
-	$nombres[4]  = "Vitrofusión";
-	$nombres[5]  = "Vitrofusión";
+	$nombres[2]  = "Soutache Pulsera";
+	$nombres[3]  = "Soutache Pulsera";
+	$nombres[4]  = "Soutache Pulsera";
+	$nombres[5]  = "Soutache Pulsera";
 	*/
 
 	$textos[0]	 = "";
-	/*
 	$textos[1]	 = "";
+	/*
 	$textos[2]	 = "En este espacio va la pequeña descripción del artículo";
 	$textos[3]	 = "En este espacio va la pequeña descripción del artículo";
 	$textos[4]	 = "En este espacio va la pequeña descripción del artículo";
@@ -64,7 +64,7 @@
 					<div class="carousel-inner" role="listbox">
 						@for($j = 0; $j < count($imagenes[$i]); $j++)
 						<div class="item @if($j == 0) active @endif">
-							<img src="{{ URL::asset('images/categorias/vitrofusion/'.$imagenes[$i][$j]) }}" alt="Pulsera">
+							<img src="{{ URL::asset('images/categorias/soutache/pulseras/'.$imagenes[$i][$j]) }}" alt="Pulsera">
 						</div>
 						@endfor
 					</div>
@@ -123,7 +123,7 @@
 							<div class="carousel-inner" role="listbox">
 								@for($j = 0; $j < count($imagenes[$i]); $j++)
 								<div class="item @if($j == 0) active @endif">
-									<img src="{{ URL::asset('images/categorias/vitrofusion/'.$imagenes[$i][$j]) }}" alt="Pulsera" class="center-block">
+									<img src="{{ URL::asset('images/categorias/soutache/pulseras/'.$imagenes[$i][$j]) }}" alt="Pulsera" class="center-block">
 								</div>
 								@endfor
 							</div>

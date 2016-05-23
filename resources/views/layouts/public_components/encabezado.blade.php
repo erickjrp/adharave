@@ -3,7 +3,7 @@
 	<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4 col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0">
 
 		<a href="{{ url('/') }}">
-			<img src="{{ URL::asset('images/logo.jpg') }}" class="img-responsive center-block">
+			<img src="{{ URL::asset('images/logo_adhara.png') }}" class="img-responsive center-block">
 		</a>
 		
 	</div>

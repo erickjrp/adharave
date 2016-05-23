@@ -26,6 +26,9 @@ Route::get('/soutache/cintillos', function () {
 Route::get('/soutache/zarcillos', function () {
     return view('public.coleccion.soutache.zarcillos');
 });
+Route::get('/soutache/pulseras', function () {
+    return view('public.coleccion.soutache.pulseras');
+});
 Route::get('/alambrismo/collares', function () {
     return view('public.coleccion.alambrismo.collares');
 });
@@ -34,6 +37,9 @@ Route::get('/alambrismo/anillos', function () {
 });
 Route::get('/alambrismo/pulseras', function () {
     return view('public.coleccion.alambrismo.pulseras');
+});
+Route::get('/alambrismo/zarcillos', function () {
+    return view('public.coleccion.alambrismo.zarcillos');
 });
 Route::get('/vitrofusion', function () {
     return view('public.coleccion.vitrofusion');

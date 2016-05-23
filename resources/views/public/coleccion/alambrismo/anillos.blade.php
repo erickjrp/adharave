@@ -6,32 +6,38 @@
 
 	<?php
 
-	$imagenes[0][0] = "anillo.jpg";
-	$imagenes[0][1] = "anillo.jpg";
-	$imagenes[1][0] = "anillo.jpg";
-	$imagenes[1][1] = "anillo.jpg";
-	$imagenes[2][0] = "anillo.jpg";
-	$imagenes[2][1] = "anillo.jpg";
+	$imagenes[0][0] = "1.jpg";
+	//$imagenes[0][1] = "anillo.jpg";
+	$imagenes[1][0] = "2.jpg";
+	//$imagenes[1][1] = "anillo.jpg";
+	$imagenes[2][0] = "3.jpg";
+	//$imagenes[2][1] = "anillo.jpg";
+	/*
 	$imagenes[3][0] = "anillo.jpg";
 	$imagenes[3][1] = "anillo.jpg";
 	$imagenes[4][0] = "anillo.jpg";
 	$imagenes[4][1] = "anillo.jpg";
 	$imagenes[5][0] = "anillo.jpg";
 	$imagenes[5][1] = "anillo.jpg";
+	*/
 
-	$nombres[0]  = "Alambrismo Anillo";
+	$nombres[0]  = "Anillo Flor";
 	$nombres[1]  = "Alambrismo Anillo";
 	$nombres[2]  = "Alambrismo Anillo";
+	/*
 	$nombres[3]  = "Alambrismo Anillo";
 	$nombres[4]  = "Alambrismo Anillo";
 	$nombres[5]  = "Alambrismo Anillo";
-
-	$textos[0]	 = "En este espacio va la pequeña descripción del artículo";
-	$textos[1]	 = "En este espacio va la pequeña descripción del artículo";
-	$textos[2]	 = "En este espacio va la pequeña descripción del artículo";
+	*/
+	
+	$textos[0]	 = "";
+	$textos[1]	 = "";
+	$textos[2]	 = "";
+	/*
 	$textos[3]	 = "En este espacio va la pequeña descripción del artículo";
 	$textos[4]	 = "En este espacio va la pequeña descripción del artículo";
 	$textos[5]	 = "En este espacio va la pequeña descripción del artículo";
+	*/
 
 	$stop 		 = count($nombres);
 
@@ -49,18 +55,18 @@
 				<div id="articulo_{!!$i!!}_carrusel" class="carousel slide" data-ride="carousel" data-interval="false">
 					<!-- Indicators -->
 					<ol class="carousel-indicators">
-						<li data-target="#articulo_{!!$i!!}_carrusel" data-slide-to="0" class="active"></li>
-						<li data-target="#articulo_{!!$i!!}_carrusel" data-slide-to="1"></li>
+						@for($j = 0; $j < count($imagenes[$i]); $j++)
+						<li data-target="#articulo_{!!$i!!}_carrusel" data-slide-to="{!!$j!!}" @if($j == 0) class="active" @endif></li>
+						@endfor
 					</ol>
 
 					<!-- Wrapper for slides -->
 					<div class="carousel-inner" role="listbox">
-						<div class="item active">
-							<img src="{{ URL::asset('images/categorias/alambrismo/anillos/'.$imagenes[$i][0]) }}" alt="Anillo">
+						@for($j = 0; $j < count($imagenes[$i]); $j++)
+						<div class="item @if($j == 0) active @endif">
+							<img src="{{ URL::asset('images/categorias/alambrismo/anillos/'.$imagenes[$i][$j]) }}" alt="Anillo">
 						</div>
-						<div class="item">
-							<img src="{{ URL::asset('images/categorias/alambrismo/anillos/'.$imagenes[$i][1]) }}" alt="Anillo">
-						</div>
+						@endfor
 					</div>
 
 					<!-- Controls -->
@@ -108,18 +114,18 @@
 						<div id="articulo_{!!$i!!}_carrusel_2" class="carousel slide" data-ride="carousel" data-interval="false">
 							<!-- Indicators -->
 							<ol class="carousel-indicators">
-								<li data-target="#articulo_{!!$i!!}_carrusel_2" data-slide-to="0" class="active"></li>
-								<li data-target="#articulo_{!!$i!!}_carrusel_2" data-slide-to="1"></li>
+								@for($j = 0; $j < count($imagenes[$i]); $j++)
+								<li data-target="#articulo_{!!$i!!}_carrusel_2" data-slide-to="{!!$j!!}" @if($j == 0) class="active" @endif></li>
+								@endfor
 							</ol>
 
 							<!-- Wrapper for slides -->
 							<div class="carousel-inner" role="listbox">
-								<div class="item active">
-									<img src="{{ URL::asset('images/categorias/alambrismo/anillos/'.$imagenes[$i][0]) }}" alt="Anillo" class="center-block">
+								@for($j = 0; $j < count($imagenes[$i]); $j++)
+								<div class="item @if($j == 0) active @endif">
+									<img src="{{ URL::asset('images/categorias/alambrismo/anillos/'.$imagenes[$i][$j]) }}" alt="Anillo" class="center-block">
 								</div>
-								<div class="item">
-									<img src="{{ URL::asset('images/categorias/alambrismo/anillos/'.$imagenes[$i][1]) }}" alt="Anillo" class="center-block">
-								</div>
+								@endfor
 							</div>
 
 							<!-- Controls -->

@@ -38,12 +38,17 @@
             </li>
             <li>
               <a href="{{ url('/soutache/cintillos') }}">
-                <i>Cintillos</i>
+                <i>Cintillos y cinturones</i>
               </a>
             </li>
             <li>
               <a href="{{ url('/soutache/zarcillos') }}">
                 <i>Zarcillos</i>
+              </a>
+            </li>
+            <li>
+              <a href="{{ url('/soutache/pulseras') }}">
+                <i>Pulseras</i>
               </a>
             </li>
           </ul>
@@ -67,6 +72,11 @@
             <li>
               <a href="{{ url('/alambrismo/pulseras') }}">
                 <i>Pulseras</i>
+              </a>
+            </li>
+            <li>
+              <a href="{{ url('/alambrismo/zarcillos') }}">
+                <i>Zarcillos</i>
               </a>
             </li>
           </ul>

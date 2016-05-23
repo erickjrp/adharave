@@ -2,38 +2,38 @@
 
 @section('content')
 
-	@include('public.coleccion.intro_vitrofusion')
+	@include('public.coleccion.alambrismo.intro_zarcillos')
 
 	<?php
 
 	$imagenes[0][0] = "1.jpg";
-	$imagenes[0][1] = "1_2.jpg";
+	//$imagenes[0][1] = "zarcillo.jpg";
+	$imagenes[1][0] = "2.jpg";
 	/*
-	$imagenes[1][0] = "vitrofusion.jpg";
-	$imagenes[1][1] = "vitrofusion.jpg";
-	$imagenes[2][0] = "vitrofusion.jpg";
-	$imagenes[2][1] = "vitrofusion.jpg";
-	$imagenes[3][0] = "vitrofusion.jpg";
-	$imagenes[3][1] = "vitrofusion.jpg";
-	$imagenes[4][0] = "vitrofusion.jpg";
-	$imagenes[4][1] = "vitrofusion.jpg";
-	$imagenes[5][0] = "vitrofusion.jpg";
-	$imagenes[5][1] = "vitrofusion.jpg";
+	$imagenes[1][1] = "zarcillo.jpg";
+	$imagenes[2][0] = "3.jpg";
+	$imagenes[2][1] = "zarcillo.jpg";
+	$imagenes[3][0] = "zarcillo.jpg";
+	$imagenes[3][1] = "zarcillo.jpg";
+	$imagenes[4][0] = "zarcillo.jpg";
+	$imagenes[4][1] = "zarcillo.jpg";
+	$imagenes[5][0] = "zarcillo.jpg";
+	$imagenes[5][1] = "zarcillo.jpg";
 	*/
 
-	$nombres[0]  = "Vitrofusión";
+	$nombres[0]  = "Alambrismo Zarcillo";
+	$nombres[1]  = "Alambrismo Zarcillo";
 	/*
-	$nombres[1]  = "Vitrofusión";
-	$nombres[2]  = "Vitrofusión";
-	$nombres[3]  = "Vitrofusión";
-	$nombres[4]  = "Vitrofusión";
-	$nombres[5]  = "Vitrofusión";
+	$nombres[2]  = "Alambrismo Zarcillo";
+	$nombres[3]  = "Alambrismo Zarcillo";
+	$nombres[4]  = "Alambrismo Zarcillo";
+	$nombres[5]  = "Alambrismo Zarcillo";
 	*/
-
+	
 	$textos[0]	 = "";
-	/*
 	$textos[1]	 = "";
-	$textos[2]	 = "En este espacio va la pequeña descripción del artículo";
+	/*
+	$textos[2]	 = "";
 	$textos[3]	 = "En este espacio va la pequeña descripción del artículo";
 	$textos[4]	 = "En este espacio va la pequeña descripción del artículo";
 	$textos[5]	 = "En este espacio va la pequeña descripción del artículo";
@@ -64,7 +64,7 @@
 					<div class="carousel-inner" role="listbox">
 						@for($j = 0; $j < count($imagenes[$i]); $j++)
 						<div class="item @if($j == 0) active @endif">
-							<img src="{{ URL::asset('images/categorias/vitrofusion/'.$imagenes[$i][$j]) }}" alt="Pulsera">
+							<img src="{{ URL::asset('images/categorias/alambrismo/zarcillos/'.$imagenes[$i][$j]) }}" alt="Anillo">
 						</div>
 						@endfor
 					</div>
@@ -123,7 +123,7 @@
 							<div class="carousel-inner" role="listbox">
 								@for($j = 0; $j < count($imagenes[$i]); $j++)
 								<div class="item @if($j == 0) active @endif">
-									<img src="{{ URL::asset('images/categorias/vitrofusion/'.$imagenes[$i][$j]) }}" alt="Pulsera" class="center-block">
+									<img src="{{ URL::asset('images/categorias/alambrismo/zarcillos/'.$imagenes[$i][$j]) }}" alt="Anillo" class="center-block">
 								</div>
 								@endfor
 							</div>

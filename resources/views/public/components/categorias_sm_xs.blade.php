@@ -11,9 +11,12 @@
         
         <h3 class="text-center titulo_thumbnail"><i>Soutache</i></h3>
         
-        <p class="text-justify">
+        <p class="text-justify hidden-sm">
           Es una técnica muy antigua, su nombre se traduce del francés como trenza, sujetando piezas de bisutería o
           abalorios de diferentes colores y tamaños
+        </p>
+        <p class="text-justify visible-sm-block">
+          Técnica antigua que sujeta piezas de bisutería o abalorios de diferentes colores y tamaños
         </p>
         
         <p>
@@ -37,8 +40,11 @@
         
         <h3 class="text-center titulo_thumbnail"><i>Alambrismo</i></h3>
         
-        <p class="text-justify">
-          Es la técnica para la creación de joyas de manera manual utilizando como base y principal componente el alambre para crear piezas de bisutería y joyas<br /><br />
+        <p class="text-justify hidden-sm">
+          Es la técnica para la creación de joyas de manera manual utilizando como base y principal componente el alambre para crear piezas de bisutería y joyas
+        </p>
+        <p class="text-justify visible-sm-block">
+          Es la técnica para la creación de joyas de manera manual utilizando como base el alambre
         </p>
         
         <p>
@@ -63,7 +69,7 @@
         <h3 class="text-center titulo_thumbnail"><i>Vitrofusión</i></h3>
         
         <p class="text-justify">
-          Técnica mediante la cual se funden dos o más vidrios con el fin de confeccionar una nueva pieza<br /><br />
+          Técnica mediante la cual se funden dos o más vidrios con el fin de confeccionar una nueva pieza
         </p>
         
         <p>

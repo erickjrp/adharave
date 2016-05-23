@@ -1,6 +1,6 @@
 <!--Modal Soutache-->
 <div class="modal fade modal_soutache" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-	<div class="modal-dialog modal-sm">
+	<div class="modal-dialog">
 		<div class="modal-content">
 
 			<div class="modal-header">
@@ -11,10 +11,20 @@
 				<div class="row">
 					<div class="col-xs-12">
 						
-						<div class="btn-group btn-group-justified" role="group" aria-label="Soutache">
+						<div class="btn-group btn-group-justified hidden-xs" role="group" aria-label="Soutache">
 							<a class="btn btn-primary" href="{{ url('/soutache/mini') }}" role="button">Mini</a>
-							<a class="btn btn-primary" href="{{ url('/soutache/cintillos') }}" role="button">Cintillos</a>
+							<a class="btn btn-primary" href="{{ url('/soutache/cintillos') }}" role="button">Cintillos y cinturones</a>
 							<a class="btn btn-primary" href="{{ url('/soutache/zarcillos') }}" role="button">Zarcillos</a>
+							<a class="btn btn-primary" href="{{ url('/soutache/pulseras') }}" role="button">Pulseras</a>
+						</div>
+
+						<div class="visible-xs-block">
+
+							<a class="btn btn-primary btn-block" href="{{ url('/soutache/mini') }}" role="button">Mini</a>
+							<a class="btn btn-primary btn-block" href="{{ url('/soutache/cintillos') }}" role="button">Cintillos y cinturones</a>
+							<a class="btn btn-primary btn-block" href="{{ url('/soutache/zarcillos') }}" role="button">Zarcillos</a>
+							<a class="btn btn-primary btn-block" href="{{ url('/soutache/pulseras') }}" role="button">Pulseras</a>
+
 						</div>
 
 					</div>
@@ -31,7 +41,7 @@
 
 <!--Modal Alambrismo-->
 <div class="modal fade modal_alambrismo" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-	<div class="modal-dialog modal-sm">
+	<div class="modal-dialog">
 		<div class="modal-content">
 
 			<div class="modal-header">
@@ -42,10 +52,20 @@
 				<div class="row">
 					<div class="col-xs-12">
 						
-						<div class="btn-group btn-group-justified" role="group" aria-label="Soutache">
+						<div class="hidden-xs btn-group btn-group-justified" role="group" aria-label="Soutache">
 							<a class="btn btn-primary" href="{{ url('/alambrismo/collares') }}" role="button">Collares</a>
 							<a class="btn btn-primary" href="{{ url('/alambrismo/anillos') }}" role="button">Anillos</a>
 							<a class="btn btn-primary" href="{{ url('/alambrismo/pulseras') }}" role="button">Pulseras</a>
+							<a class="btn btn-primary" href="{{ url('/alambrismo/zarcillos') }}" role="button">Zarcillos</a>
+						</div>
+
+						<div class="visible-xs-block">
+
+							<a class="btn btn-primary btn-block" href="{{ url('/alambrismo/collares') }}" role="button">Collares</a>
+							<a class="btn btn-primary btn-block" href="{{ url('/alambrismo/anillos') }}" role="button">Anillos</a>
+							<a class="btn btn-primary btn-block" href="{{ url('/alambrismo/pulseras') }}" role="button">Pulseras</a>
+							<a class="btn btn-primary btn-block" href="{{ url('/alambrismo/zarcillos') }}" role="button">Zarcillos</a>
+
 						</div>
 
 					</div>

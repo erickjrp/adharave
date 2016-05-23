@@ -54,7 +54,7 @@
 						<i class="fa fa-envelope fa-fw"></i>
 						Correo:
 					</strong>
-					adharave@hotmail.com
+					inf.adharacollection@gmail.com
 				</p>
 				<p>
 					<strong>
